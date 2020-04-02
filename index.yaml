@@ -3,7 +3,17 @@ entries:
   basic-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-02T19:43:19.941467+01:00"
+    created: "2020-04-02T19:45:43.750939+01:00"
+    description: A Helm chart for basic
+    digest: 7e2f51edbcc8127ad665019d96e8a8f7fcc5568353edc4112bfe45517730a562
+    name: basic-chart
+    type: application
+    urls:
+    - https://yousseefben.github.io/custom-chart/basic-chart-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-04-02T19:45:43.750363+01:00"
     description: A Helm chart for basic
     digest: a2da0ee849ba1374e5dcf4b1cd16d27797eb8d4c4f9bd31ddd6070ceb722ca63
     name: basic-chart
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://yousseefben.github.io/custom-chart/basic-chart-0.2.9.tgz
     version: 0.2.9
-generated: "2020-04-02T19:43:19.938515+01:00"
+generated: "2020-04-02T19:45:43.746897+01:00"
