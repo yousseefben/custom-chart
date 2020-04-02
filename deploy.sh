@@ -13,6 +13,6 @@ rm index.yaml
 git show tmp:index.yaml > index.yaml
 git add index.yaml
 git commit -m "some update"
-git push origin master:gh-pages -f  
+git push -f  
 git clean -dfx
 git checkout master
