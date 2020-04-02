@@ -9,5 +9,5 @@ helm repo index . --url https://yousseefben.github.io/custom-chart/
 git add index.yaml
 git commit -m "some update"
 git push 
-rm basic*
+git clean -dfx
 git checkout master
