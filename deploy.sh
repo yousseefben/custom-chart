@@ -3,8 +3,10 @@ git commit -m "some update"
 git push
 git checkout -b tmp
 git show gh-pages:index.yaml > index.yaml  
+cat index.yaml
 helm package .
 helm repo index . --url https://yousseefben.github.io/custom-chart/ 
+cat index.yaml
 git add .
 git commit -m "some update"
 git checkout gh-pages -f
