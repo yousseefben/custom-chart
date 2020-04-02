@@ -8,7 +8,7 @@ git stash
 git checkout gh-pages
 git stash pop
 git checkout --theirs index.yaml
-git add index.yaml
+git add *
 git commit -m "some update"
 git push -f  
 git clean -dfx
