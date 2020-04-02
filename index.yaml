@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  custom-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-04-02T12:37:44.684738+01:00"
+    description: A Helm chart for custom
+    digest: b8a8a615242390e6decef491049f7d03e2ca7fa6acec1c551d3594390faf9c4d
+    name: custom-chart
+    type: application
+    urls:
+    - https://yousseefben.github.io/custom-chart/custom-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-02T12:37:44.683867+01:00"
