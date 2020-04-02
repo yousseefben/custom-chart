@@ -4,8 +4,6 @@ metadata:
   name: {{ include "basic-chart.fullname" . }}
   labels:
     {{- include "basic-chart.labels" . | nindent 4 }}
-  annotations: 
-    timestamp: "{{ date "20060102150405" .Release.Time }}"
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
