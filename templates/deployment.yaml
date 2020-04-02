@@ -5,7 +5,8 @@ metadata:
   labels:
     {{- include "basic-chart.labels" . | nindent 4 }}
   annotations: 
-    timestamp: "{{ date "20060102150405" .Release.Time }}"
+    timestamp: {{ date "20060102150405" .Release.Time }}
+    restart: {{ .Values.restart }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
