@@ -14,5 +14,6 @@ git show tmp:index.yaml > index.yaml
 git add index.yaml
 git commit -m "some update"
 git push -f  
+git branch -D tmp
 git clean -dfx
 git checkout master
