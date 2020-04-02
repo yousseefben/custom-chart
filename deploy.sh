@@ -6,9 +6,8 @@ helm package .
 git checkout gh-pages -f
 git pull
 helm repo index . --url https://yousseefben.github.io/custom-chart/ 
-git add index*
+git add index.yaml
 git commit -m "some update"
 git push 
-git reset --hard
 rm basic*
 git checkout master
