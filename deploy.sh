@@ -4,8 +4,10 @@ git push
 git show gh-pages:index.yaml > index.yaml  
 helm package .
 helm repo index . --url https://yousseefben.github.io/custom-chart/ 
-git checkout gh-pages -f
-git pull
+git stash
+git checkout gh-pages
+git stash pop
+git checkout --theirs index.yaml
 git add index.yaml
 git commit -m "some update"
 git push -f  
