@@ -77,5 +77,3 @@ affinity: {}
 env: []         
 #  - name: ""
 #    value: 
-
-restart: 12
