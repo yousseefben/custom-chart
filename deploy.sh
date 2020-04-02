@@ -1,6 +1,7 @@
-git add *
+git add .
 git commit -m "some update"
 git push
+git show gh-pages:index.yaml > index.yaml  
 helm package .
 git checkout gh-pages -f
 git pull
