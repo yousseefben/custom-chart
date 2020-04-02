@@ -11,7 +11,7 @@ git checkout gh-pages -f
 git pull
 rm index.yaml
 git show tmp:index.yaml > index.yaml
-git add index.yaml
+git add .
 git commit -m "some update"
 git push -f  
 git clean -dfx
